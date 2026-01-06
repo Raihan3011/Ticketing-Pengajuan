@@ -1,0 +1,2 @@
+/* App specific styles */
+.app {\n  display: flex;\n  flex-direction: column;\n  min-height: 100vh;\n}\n\n/* Responsive design */\n@media (max-width: 768px) {\n  .tickets-grid {\n    grid-template-columns: 1fr;\n  }\n  \n  .form-row {\n    grid-template-columns: 1fr;\n  }\n  \n  .dashboard-header {\n    flex-direction: column;\n    gap: 1rem;\n    align-items: flex-start;\n  }\n  \n  .filters {\n    flex-direction: column;\n  }\n  \n  .nav-links {\n    flex-direction: column;\n    gap: 0.5rem;\n  }\n}
